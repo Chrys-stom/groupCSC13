@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "375411419032",
+    "project_id": "weed-detector-9fc73",
+    "storage_bucket": "weed-detector-9fc73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375411419032:android:a82146610f840263ba2ded",
+        "android_client_info": {
+          "package_name": "com.example.weed_detector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375411419032-9o97aipb8ktk4fichrrjth130gp4jk3m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.weed_detector",
+            "certificate_hash": "be80dd08f5301dd2cc3bb78371d96a13c74860e3"
+          }
+        },
+        {
+          "client_id": "375411419032-oilkqe0lpfl81245tdg2uvpvu34dovf7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmzzP9exHXOnX4TnU12I2uTjXSxh5yKmM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375411419032-oilkqe0lpfl81245tdg2uvpvu34dovf7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
