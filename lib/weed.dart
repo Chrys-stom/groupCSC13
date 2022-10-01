@@ -12,7 +12,7 @@ WeedList weedList = WeedList(weeds: [
       ],
       features: [
         {Icon(Icons.help, size: iconSize): "Help"},
-        {Icon(Icons.settings, size: iconSize): "Settings"},
+        {Icon(Icons.details_rounded, size: iconSize): "About Us"},
       ],
       weedName: '',
       specifications: [])

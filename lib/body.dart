@@ -4,7 +4,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_camera/flutter_camera.dart';
 import 'package:provider/provider.dart';
+import 'package:weed_detector/about_us.dart';
 import 'package:weed_detector/google_sign_in.dart';
+import 'package:weed_detector/help.dart';
 import 'package:weed_detector/sign_in_screen.dart';
 
 import 'package:weed_detector/weed.dart';
@@ -175,11 +177,11 @@ class Body extends StatelessWidget {
                 return GestureDetector(
                   onTap: () {
                     if (index == 0) {
-                      // ignore: avoid_print
-                      print("Jonas is sturbon");
+                      Navigator.push(context,
+                          CupertinoPageRoute(builder: (context) => Help()));
                     } else {
-                      // ignore: avoid_print
-                      print("Charles is home");
+                      Navigator.push(context,
+                          CupertinoPageRoute(builder: (context) => AboutUs()));
                     }
                   },
                   // ignore: avoid_unnecessary_containers
